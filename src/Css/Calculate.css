@@ -1,0 +1,58 @@
+.Calculate {
+  height: 40vh;
+  padding: 40px;
+}
+.Calculate > .Cal_left {
+  float: left;
+
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+.Calculate > .Cal_left > div:first-child {
+  position: absolute;
+  right: 10%;
+}
+.Calculate > .Cal_right {
+  float: right;
+
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+.Calculate > .Cal_right > img {
+  height: 100%;
+  position: absolute;
+  left: 10%;
+}
+.Calculate > .Cal_left > div > h2 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: "Raleway", Tahoma, Geneva, sans-serif;
+}
+.Calculate > .Cal_left > div > span {
+  display: block;
+  margin-bottom: 20px;
+  font-family: "Raleway", Tahoma, Geneva, sans-serif;
+  color: gray;
+}
+.Calculate > .Cal_left > div > strong {
+  display: block;
+  color: #f06060;
+  font-size: 32px;
+}
+.Calculate > .Cal_left > div > em {
+  display: block;
+  margin-bottom: 40px;
+  font-family: "Bitter", serif;
+  font-size: 20px;
+}
+.Cal_Button > button:last-child {
+  padding: 17px 30px;
+  text-align: center;
+  color: white;
+  background-color: #f06060;
+  border-radius: 3px;
+  display: block;
+  width: 100%;
+}

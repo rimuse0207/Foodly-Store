@@ -1,0 +1,52 @@
+.Sliders {
+  border: 1px solid lime;
+}
+.Sliders > ul {
+  border: 1px solid red;
+  display: flex;
+}
+.Sliders > ul > li {
+  border: 1px solid blue;
+  width: 25%;
+  height: 35vh;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 100px;
+}
+.Sliders > ul > li > span {
+  min-width: 60px;
+  min-height: 60px;
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 14px;
+  line-height: 7px;
+  color: #fff;
+  text-align: center;
+  background-color: #f06060;
+  border-radius: 50%;
+  z-index: 2;
+  line-height: 60px;
+}
+.Sliders > ul > li > div {
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  right: 0;
+  font-family: "Bitter", serif;
+  line-height: 1.4;
+  font-weight: bolder;
+}
+.Sliders > ul > li > div + div > span {
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  right: 0;
+  font-family: "Bitter", serif;
+  line-height: 1;
+  color: gray;
+  font-size: 0.8em;
+}
