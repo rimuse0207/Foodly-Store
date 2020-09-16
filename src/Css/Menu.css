@@ -1,0 +1,50 @@
+#Menu {
+  text-align: center;
+  font-size: 14px;
+}
+#Menu > ul {
+}
+#Menu > ul > li {
+  display: inline-block;
+  position: relative;
+}
+#Menu > ul > li > a {
+  display: block;
+  padding: 26px 40px;
+  font-weight: 600;
+}
+#Menu ul ul {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 60px;
+  padding: 10px 0;
+  width: 100%;
+  background-color: white;
+  color: gray;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}
+#Menu ul ul a {
+  display: block;
+  padding: 10px 5px;
+}
+#Menu > ul > li:hover ul {
+  display: block;
+  color: red;
+}
+#Menu > ul > li:hover > a {
+  color: red;
+}
+#Menu > ul > li:nth-child(2) ul {
+  left: -25%;
+  width: 150%;
+}
+
+#Menu {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 105px;
+  height: 70px;
+  background-color: white;
+}

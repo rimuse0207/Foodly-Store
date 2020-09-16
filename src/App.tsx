@@ -1,17 +1,14 @@
 import React from "react";
-import logo from "./logo.svg";
+
 import "./App.css";
-import Nav from "./components/Nav";
-import Menu from "./components/Menu";
+
 import MainImage from "./components/MainImage";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <Nav></Nav>
-        <Menu></Menu>
-      </header>
+      <Header></Header>
       <main>
         <MainImage></MainImage>
       </main>

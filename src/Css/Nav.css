@@ -1,0 +1,13 @@
+.Nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Nav img {
+  line-height: 106px;
+}
+.Nav {
+  position: absolute;
+  left: 0;
+  right: 0;
+}

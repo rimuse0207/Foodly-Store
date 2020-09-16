@@ -1,0 +1,153 @@
+.wrap {
+  border: 1px solid red;
+  overflow: hidden;
+}
+
+.wrap > .left:hover {
+  background-color: #f06060;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.wrap > .right:hover {
+  background-color: #f06060;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.wrap > .left {
+  border: 1px solid blue;
+  background-image: url("/images/dada.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  float: left;
+  width: 50%;
+  height: 80vh;
+  position: relative;
+  padding-top: 50px;
+}
+.wrap > .left > h3 {
+  font-family: "Raleway", Tahoma, Geneva, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 32px;
+}
+.wrap > .left > h4 {
+  margin: 0;
+  line-height: 1.4;
+  font-family: "Bitter", serif;
+  font-weight: normal;
+  font-size: 26px;
+}
+.wrap > .left > div {
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  margin: 0 auto;
+  margin-top: -65px;
+
+  padding: 45px 30px 0 30px;
+  /* display: block; */
+  width: 100%;
+}
+.wrap > .left > div::before {
+  content: "";
+  display: block;
+  margin-left: 300px;
+  height: 2px;
+  background-color: red;
+  position: relative;
+  top: 47px;
+}
+.wrap > .left > div > span:first-child {
+  padding: 0 5px;
+  width: 100px;
+  height: 100px;
+  display: block;
+  float: left;
+  border-radius: 50%;
+  background-color: #f3b562;
+  color: white;
+  line-height: 100px;
+}
+
+.wrap > .left > div > span:first-child > strong {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 18px;
+
+  font-size: 1.3em;
+}
+.wrap > .left > div > span + span {
+  margin-top: 23px;
+  float: right;
+}
+.wrap > .right {
+  border: 1px solid blue;
+  float: right;
+  width: 50%;
+  height: 80vh;
+  background-image: url("/images/raspberries_ed450429-f3d8-4757-9507-f18101c2c057_grande.jpeg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  position: relative;
+  padding-top: 50px;
+}
+
+.wrap > .right > h3 {
+  font-family: "Raleway", Tahoma, Geneva, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 32px;
+}
+.wrap > .right > h4 {
+  margin: 0;
+  line-height: 1.4;
+  font-family: "Bitter", serif;
+  font-weight: normal;
+  font-size: 26px;
+}
+.wrap > .right > div {
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  margin: 0 auto;
+  margin-top: -65px;
+
+  padding: 45px 30px 0 30px;
+  /* display: block; */
+  width: 100%;
+}
+.wrap > .right > div::before {
+  content: "";
+  display: block;
+  margin-left: 300px;
+  height: 2px;
+  background-color: red;
+  position: relative;
+  top: 47px;
+}
+.wrap > .right > div > span:first-child {
+  padding: 0 5px;
+  width: 100px;
+  height: 100px;
+  display: block;
+  float: left;
+  border-radius: 50%;
+  background-color: #f3b562;
+  color: white;
+  line-height: 100px;
+}
+
+.wrap > .right > div > span:first-child > strong {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 18px;
+
+  font-size: 1.3em;
+}
+.wrap > .right > div > span + span {
+  margin-top: 23px;
+  float: right;
+}

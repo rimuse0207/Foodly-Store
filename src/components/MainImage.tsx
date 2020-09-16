@@ -1,9 +1,31 @@
 import React from "react";
-
+import "../Css/MainImage.css";
 function MainImage() {
   return (
-    <div>
-      <img src="/images/img_homepage_slide_1_99ab6459-79aa-49be-89c7-fb4cd2ac027f_2000x.jpg"></img>
+    <div className="wrap">
+      <div className="left">
+        <h3>START YOUR DAY</h3>
+        <h4>with vit-plate</h4>
+        <div>
+          <span>
+            <strong>special pack</strong>
+          </span>
+          <span>
+            <strong>Healthy deal</strong>
+          </span>
+        </div>
+      </div>
+      <div className="right">
+        <h3>C-OVERLOAD</h3>
+        <div>
+          <span>
+            <strong>20% discount</strong>
+          </span>
+          <span>
+            <strong>Septemberdeal</strong>
+          </span>
+        </div>
+      </div>
     </div>
   );
 }

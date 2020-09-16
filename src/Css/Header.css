@@ -1,0 +1,109 @@
+.Header {
+  width: 100%;
+  position: relative;
+}
+.Header > ul > .TOMATO {
+  background-image: url("/images/img_homepage_slide_1_99ab6459-79aa-49be-89c7-fb4cd2ac027f_2000x.jpg");
+}
+.Header > ul > .PELLA {
+  background-image: url("/images/img_homepage_slide_2_1e0ca3da-09bc-46b3-a58e-952f99df5a5d_2000x.jpg");
+}
+.Header > ul > .APPLE {
+  background-image: url("/images/img_homepage_slide_3_2d5607e9-6072-431a-9965-9e0421c370c6_2000x.jpg");
+}
+.Header > ul > li {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  float: left;
+  margin-right: -100%;
+
+  display: block;
+  z-index: 2;
+  width: 100%;
+  opacity: 1;
+  height: 100vh;
+}
+.slides {
+  zoom: 1;
+}
+.slides > li > div {
+  position: absolute;
+  left: 40%;
+  top: 40%;
+}
+.slides > li > div > div > a > h2 {
+  font-family: "Raleway", Tahoma, Geneva, sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.slides em {
+  font-family: "Bitter", serif;
+  font-weight: normal;
+  font-size: 26px;
+}
+.Header > ul::after {
+  content: "\0020";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.navcontrol {
+  position: absolute;
+  width: 110px;
+  right: 5px;
+  top: 50%;
+  bottom: initial;
+  z-index: 2;
+}
+.navcontrol > li.on {
+  border-color: transparent;
+  opacity: 0.3;
+}
+
+.navcontrol > li {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: 70px;
+  height: 70px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  float: none;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  z-index: 2;
+}
+.navcontrol > li > img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.towerDesc {
+  position: absolute;
+  bottom: -174px;
+  left: -102px;
+  width: 140px;
+  height: 140px;
+  text-align: center;
+  background-color: #f06060;
+  border-radius: 50%;
+}
+
+.towerDesc > a > span {
+  padding-top: 39px;
+  display: block;
+  font-size: 32px;
+  line-height: 34px;
+  color: #fff;
+}
+.towerDesc > a > em {
+  font-family: "Bitter", serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #fff;
+}
