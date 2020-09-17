@@ -3,13 +3,13 @@
   position: relative;
 }
 .Header > ul > .TOMATO {
-  background-image: url("/images/img_homepage_slide_1_99ab6459-79aa-49be-89c7-fb4cd2ac027f_2000x.jpg");
+  background-image: url("../asset/img_homepage_slide_1_99ab6459-79aa-49be-89c7-fb4cd2ac027f_2000x.jpg");
 }
 .Header > ul > .PELLA {
-  background-image: url("/images/img_homepage_slide_2_1e0ca3da-09bc-46b3-a58e-952f99df5a5d_2000x.jpg");
+  background-image: url("../asset/img_homepage_slide_2_1e0ca3da-09bc-46b3-a58e-952f99df5a5d_2000x.jpg");
 }
 .Header > ul > .APPLE {
-  background-image: url("/images/img_homepage_slide_3_2d5607e9-6072-431a-9965-9e0421c370c6_2000x.jpg");
+  background-image: url("../asset/img_homepage_slide_3_2d5607e9-6072-431a-9965-9e0421c370c6_2000x.jpg");
 }
 .Header > ul > li {
   background-repeat: no-repeat;

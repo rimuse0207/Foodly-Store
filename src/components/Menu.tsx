@@ -1,6 +1,6 @@
 import React from "react";
 import "../Css/Menu.css";
-function Menu() {
+const Menu: React.FC = () => {
   return (
     <div id="Menu">
       <ul>
@@ -67,6 +67,6 @@ function Menu() {
       </ul>
     </div>
   );
-}
+};
 
 export default Menu;

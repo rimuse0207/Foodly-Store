@@ -1,6 +1,6 @@
 import React from "react";
 import "../Css/MainImage.css";
-function MainImage() {
+const MainImage: React.FC = () => {
   return (
     <div className="wrap">
       <div className="left">
@@ -28,6 +28,6 @@ function MainImage() {
       </div>
     </div>
   );
-}
+};
 
 export default MainImage;

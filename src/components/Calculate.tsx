@@ -1,6 +1,7 @@
 import React from "react";
 import "../Css/Calculate.css";
-const Calculate = () => {
+const Calculate: React.FC = () => {
+  const product = require("../asset/img_homepage_special_product_600x.png");
   return (
     <div className="Calculate">
       <div className="Cal_left">
@@ -16,7 +17,7 @@ const Calculate = () => {
         </div>
       </div>
       <div className="Cal_right">
-        <img src="images/img_homepage_special_product_600x.png"></img>
+        <img src={product}></img>
       </div>
     </div>
   );

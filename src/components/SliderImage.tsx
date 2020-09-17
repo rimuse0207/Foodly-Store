@@ -1,13 +1,18 @@
-import { url } from "inspector";
 import React from "react";
 import "../Css/SliderImage.css";
 
-const SliderImage = () => {
+const SliderImage: React.FC = () => {
+  const basil = require("../asset/vegi/Basil_grande.jpeg");
+  const Brandywine_tomatoes = require("../asset/vegi/Brandywine-tomatoes-front_grande.jpeg");
+  const grande = require("../asset/raspberries_ed450429-f3d8-4757-9507-f18101c2c057_grande.jpeg");
+  const Campari_Tomatoes = require("../asset/vegi/Campari-Tomatoes_grande.jpeg");
   return (
     <div className="Sliders">
       <ul>
         <li
-          style={{ backgroundImage: 'url("/images/vegi/Basil_grande.jpeg")' }}
+          style={{
+            backgroundImage: `url(${basil})`,
+          }}
         >
           <a href=""></a>
           <span>$2.29</span>
@@ -18,8 +23,7 @@ const SliderImage = () => {
         </li>
         <li
           style={{
-            backgroundImage:
-              'url("/images/vegi/Brandywine-tomatoes-front_grande.jpeg")',
+            backgroundImage: `url(${Brandywine_tomatoes})`,
           }}
         >
           <a href=""></a>
@@ -31,8 +35,7 @@ const SliderImage = () => {
         </li>
         <li
           style={{
-            backgroundImage:
-              'url("/images/raspberries_ed450429-f3d8-4757-9507-f18101c2c057_grande.jpeg")',
+            backgroundImage: `url(${grande})`,
           }}
         >
           <a href=""></a>
@@ -44,7 +47,7 @@ const SliderImage = () => {
         </li>
         <li
           style={{
-            backgroundImage: 'url("/images/vegi/Campari-Tomatoes_grande.jpeg")',
+            backgroundImage: `url(${Campari_Tomatoes})`,
           }}
         >
           <a href=""></a>

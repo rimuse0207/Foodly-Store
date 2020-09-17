@@ -16,7 +16,7 @@
 }
 .wrap > .left {
   border: 1px solid blue;
-  background-image: url("/images/dada.jpg");
+  background-image: url("../asset/dada.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -87,7 +87,7 @@
   float: right;
   width: 50%;
   height: 80vh;
-  background-image: url("/images/raspberries_ed450429-f3d8-4757-9507-f18101c2c057_grande.jpeg");
+  background-image: url("../asset/raspberries_ed450429-f3d8-4757-9507-f18101c2c057_grande.jpeg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
