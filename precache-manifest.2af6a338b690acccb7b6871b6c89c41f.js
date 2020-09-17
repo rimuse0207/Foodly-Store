@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "51b4921bb35172da79af01bf57d8e52e",
+    "revision": "1ce2c2d9e7d4ea8ad737a815f58e8498",
     "url": "/Foodly-Store/index.html"
   },
   {
-    "revision": "01af443eae4cff95ea93",
-    "url": "/Foodly-Store/static/css/main.a2530c12.chunk.css"
+    "revision": "836a13c9c0215244f158",
+    "url": "/Foodly-Store/static/css/main.2d5d17a9.chunk.css"
   },
   {
     "revision": "39bd5ae30ad153c1f3a0",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Foodly-Store/static/js/2.9ef708d9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "01af443eae4cff95ea93",
-    "url": "/Foodly-Store/static/js/main.83267489.chunk.js"
+    "revision": "836a13c9c0215244f158",
+    "url": "/Foodly-Store/static/js/main.eb021887.chunk.js"
   },
   {
     "revision": "4fd5c4d3e4dfa9f1a87c",
@@ -30,6 +30,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ddc90681e2807592f20479a9c24e5d08",
     "url": "/Foodly-Store/static/media/Brandywine-tomatoes-front_grande.ddc90681.jpeg"
+  },
+  {
+    "revision": "221711ca7bfc340f2c5b6135c00026f5",
+    "url": "/Foodly-Store/static/media/blog_about_us_01_seeds_large.221711ca.png"
+  },
+  {
+    "revision": "193fcbe797ec3bc5c14ca4f5a27a2d25",
+    "url": "/Foodly-Store/static/media/blog_about_us_03_harvest_large.193fcbe7.png"
   },
   {
     "revision": "e03a3183d111bb3bef7a16ab5da815ad",
