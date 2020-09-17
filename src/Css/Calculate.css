@@ -1,12 +1,14 @@
 .Calculate {
-  height: 40vh;
+  height: 90vh;
   padding: 40px;
+  border: 1px solid red;
+  background-color: #f2f3f5;
 }
 .Calculate > .Cal_left {
   float: left;
-
+  top: 25%;
   width: 50%;
-  height: 100%;
+  height: 50%;
   position: relative;
 }
 .Calculate > .Cal_left > div:first-child {
@@ -15,9 +17,9 @@
 }
 .Calculate > .Cal_right {
   float: right;
-
   width: 50%;
-  height: 100%;
+  height: 50%;
+  top: 25%;
   position: relative;
 }
 .Calculate > .Cal_right > img {
