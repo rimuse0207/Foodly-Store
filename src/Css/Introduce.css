@@ -1,0 +1,130 @@
+.wrapp {
+  background-color: #f2f3f5;
+  width: 100%;
+  height: 100%;
+}
+.Intro {
+  width: 50%;
+  height: 80vh;
+  position: relative;
+  margin: 0 auto;
+}
+.slide-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.slide-container::after {
+  content: "";
+  clear: both;
+}
+
+#img1,
+#img2,
+#img3 {
+  display: none;
+}
+
+.prev,
+.next {
+  width: 12%;
+  position: absolute;
+  top: 80%;
+  background: rbga(88, 88, 88, 0.4);
+  z-index: 99;
+  cursor: pointer;
+  line-height: 30px;
+  font-size: 24px;
+}
+
+.prev {
+  left: 0;
+}
+.next {
+  right: 0;
+}
+.Intro > h2 {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  font-family: "Raleway", Tahoma, Geneva, sans-serif;
+  font-size: 32px;
+}
+.Navigation {
+  width: 100%;
+  height: 11px;
+  bottom: 12%;
+  position: absolute;
+  text-align: center;
+  z-index: 99;
+}
+.dots {
+  top: -5px;
+  width: 18px;
+  height: 18px;
+  margin: 0 4px;
+  position: relative;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.slide-container {
+  z-index: -1;
+}
+#img1:checked ~ #one,
+#img2:checked ~ #two,
+#img3:checked ~ #three {
+  z-index: 9;
+}
+#img1:checked ~ .Navigation #dot1,
+#img2:checked ~ .Navigation #dot2,
+#img3:checked ~ .Navigation #dot3 {
+  background: #fff;
+}
+.slide-container > h2 {
+  line-height: 48px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.slide-container > .left {
+  float: left;
+  border-bottom: 1px solid orange;
+  width: 50%;
+  height: 90%;
+  position: relative;
+}
+.slide-container > .left > div {
+  position: absolute;
+  right: 10%;
+  width: 70%;
+
+  bottom: 30%;
+}
+.slide-container > .left > div > strong {
+  font-family: "Bitter", serif;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: normal;
+  display: block;
+}
+.slide-container > .left > div > em {
+  padding-top: 7px;
+  line-height: 30px;
+  text-align: left;
+}
+
+.slide-container > .right {
+  float: right;
+  border-bottom: 1px solid orange;
+  width: 50%;
+  height: 90%;
+  position: relative;
+}
+.slide-container > .right > img {
+  position: absolute;
+  left: 10%;
+  top: 30%;
+}

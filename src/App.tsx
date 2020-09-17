@@ -4,6 +4,7 @@ import SliderImage from "./components/SliderImage";
 import MainImage from "./components/MainImage";
 import Header from "./components/Header";
 import Calculate from "./components/Calculate";
+import Introduce from "./components/Introduce";
 const App: React.FC = () => {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ const App: React.FC = () => {
         <MainImage></MainImage>
         <SliderImage></SliderImage>
         <Calculate></Calculate>
+        <Introduce></Introduce>
       </main>
     </div>
   );
