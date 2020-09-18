@@ -11,7 +11,7 @@ const App: React.FC = () => {
       <Nav></Nav>
       <Menu></Menu>
       <Route exact path="/" component={Home}></Route>
-      <Route exact path="/Foodly-Store" component={FoodlyStore}></Route>
+      <Route path="/Foodly-Store" component={FoodlyStore}></Route>
       <Route path="/Homepage2" component={HomePage2}></Route>
       <Route path="/login" component={Login}></Route>
       <Route path="/SignUp" component={SignUp}></Route>
