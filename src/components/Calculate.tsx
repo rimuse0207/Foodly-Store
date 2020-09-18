@@ -4,6 +4,9 @@ const Calculate: React.FC = () => {
   const product = require("../asset/img_homepage_special_product_600x.png");
   return (
     <div className="Calculate">
+      <div className="Cal_right">
+        <img src={product}></img>
+      </div>
       <div className="Cal_left">
         <div>
           <h2>SPECIAL OFFER</h2>
@@ -15,9 +18,6 @@ const Calculate: React.FC = () => {
             <button>ADD TO BAG</button>
           </div>
         </div>
-      </div>
-      <div className="Cal_right">
-        <img src={product}></img>
       </div>
     </div>
   );

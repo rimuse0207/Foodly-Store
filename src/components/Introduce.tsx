@@ -14,6 +14,9 @@ const Introduce: React.FC = () => {
         <input type="radio" name="radio-btn" id="img3" checked></input>
         <h2>DISCOVER & ORIGIN</h2>
         <div className="slide-container" id="one">
+          <div className="right">
+            <img src={fristBlog} />
+          </div>
           <div className="left">
             <div>
               <strong>Hand-picked seeds</strong>
@@ -24,9 +27,6 @@ const Introduce: React.FC = () => {
               </em>
             </div>
           </div>
-          <div className="right">
-            <img src={fristBlog} />
-          </div>
 
           <label htmlFor="img3" className="prev">
             Prev
@@ -36,6 +36,9 @@ const Introduce: React.FC = () => {
           </label>
         </div>
         <div className="slide-container" id="two">
+          <div className="right">
+            <img src={secondBlog} />
+          </div>
           <div className="left">
             <div>
               <strong>Planting & growth with Love</strong>
@@ -46,9 +49,7 @@ const Introduce: React.FC = () => {
               </em>
             </div>
           </div>
-          <div className="right">
-            <img src={secondBlog} />
-          </div>
+
           <label htmlFor="img1" className="prev">
             Prev
           </label>
@@ -57,6 +58,9 @@ const Introduce: React.FC = () => {
           </label>
         </div>
         <div className="slide-container" id="three">
+          <div className="right">
+            <img src={ThirdBlog} />
+          </div>
           <div className="left">
             <div>
               <strong>Meticilous harvest process</strong>
@@ -67,9 +71,7 @@ const Introduce: React.FC = () => {
               </em>
             </div>
           </div>
-          <div className="right">
-            <img src={ThirdBlog} />
-          </div>
+
           <label htmlFor="img2" className="prev">
             Prev
           </label>

@@ -13,7 +13,7 @@
 }
 .Header > ul > li {
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: 50% 70%;
   background-size: cover;
   float: left;
   margin-right: -100%;
@@ -22,7 +22,7 @@
   z-index: 2;
   width: 100%;
   opacity: 1;
-  height: 100vh;
+  height: 80vh;
 }
 .slides {
   zoom: 1;
@@ -30,7 +30,7 @@
 .slides > li > div {
   position: absolute;
   left: 40%;
-  top: 40%;
+  top: 10%;
 }
 .slides > li > div > div > a > h2 {
   font-family: "Raleway", Tahoma, Geneva, sans-serif;
@@ -55,7 +55,7 @@
   position: absolute;
   width: 110px;
   right: 5px;
-  top: 50%;
+  top: 30%;
   bottom: initial;
   z-index: 2;
 }
@@ -201,4 +201,32 @@
 }
 .SubMain > span {
   color: gray;
+}
+
+@media (max-width: 700px) {
+  .slides > li > div > div > a > h2 {
+    font-size: 16px;
+  }
+  .slides em {
+    font-size: 13px;
+  }
+  .towerDesc {
+    width: 70px;
+    height: 70px;
+    bottom: -94px;
+  }
+  .towerDesc > a > em {
+    font-size: 8px;
+  }
+  .towerDesc > a > span {
+    font-size: 16px;
+    padding-top: 6px;
+  }
+  .Header > ul > li {
+    height: 50vh;
+  }
+  .navcontrol > li {
+    width: 35px;
+    height: 35px;
+  }
 }

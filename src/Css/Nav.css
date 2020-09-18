@@ -16,3 +16,9 @@
 .Nav div {
   font-family: cursive;
 }
+
+@media (max-width: 700px) {
+  .Nav div {
+    display: none;
+  }
+}
