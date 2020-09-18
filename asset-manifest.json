@@ -1,29 +1,33 @@
 {
   "files": {
-    "main.css": "/Foodly-Store/static/css/main.2d5d17a9.chunk.css",
-    "main.js": "/Foodly-Store/static/js/main.eb021887.chunk.js",
-    "main.js.map": "/Foodly-Store/static/js/main.eb021887.chunk.js.map",
+    "main.css": "/Foodly-Store/static/css/main.e98d12c2.chunk.css",
+    "main.js": "/Foodly-Store/static/js/main.e88c731b.chunk.js",
+    "main.js.map": "/Foodly-Store/static/js/main.e88c731b.chunk.js.map",
     "runtime-main.js": "/Foodly-Store/static/js/runtime-main.7615d4e5.js",
     "runtime-main.js.map": "/Foodly-Store/static/js/runtime-main.7615d4e5.js.map",
-    "static/js/2.9ef708d9.chunk.js": "/Foodly-Store/static/js/2.9ef708d9.chunk.js",
-    "static/js/2.9ef708d9.chunk.js.map": "/Foodly-Store/static/js/2.9ef708d9.chunk.js.map",
+    "static/js/2.1a9f9057.chunk.js": "/Foodly-Store/static/js/2.1a9f9057.chunk.js",
+    "static/js/2.1a9f9057.chunk.js.map": "/Foodly-Store/static/js/2.1a9f9057.chunk.js.map",
     "index.html": "/Foodly-Store/index.html",
-    "precache-manifest.2af6a338b690acccb7b6871b6c89c41f.js": "/Foodly-Store/precache-manifest.2af6a338b690acccb7b6871b6c89c41f.js",
+    "precache-manifest.731097ebab04bbf017be0a5972c22b42.js": "/Foodly-Store/precache-manifest.731097ebab04bbf017be0a5972c22b42.js",
     "service-worker.js": "/Foodly-Store/service-worker.js",
-    "static/css/main.2d5d17a9.chunk.css.map": "/Foodly-Store/static/css/main.2d5d17a9.chunk.css.map",
-    "static/js/2.9ef708d9.chunk.js.LICENSE.txt": "/Foodly-Store/static/js/2.9ef708d9.chunk.js.LICENSE.txt",
+    "static/css/main.e98d12c2.chunk.css.map": "/Foodly-Store/static/css/main.e98d12c2.chunk.css.map",
+    "static/js/2.1a9f9057.chunk.js.LICENSE.txt": "/Foodly-Store/static/js/2.1a9f9057.chunk.js.LICENSE.txt",
     "static/media/Basil_grande.jpeg": "/Foodly-Store/static/media/Basil_grande.c5770c69.jpeg",
     "static/media/Brandywine-tomatoes-front_grande.jpeg": "/Foodly-Store/static/media/Brandywine-tomatoes-front_grande.ddc90681.jpeg",
+    "static/media/Header.css": "/Foodly-Store/static/media/img_homepage_slide_3_2d5607e9-6072-431a-9965-9e0421c370c6_2000x.211705ae.jpg",
     "static/media/blog_about_us_01_seeds_large.png": "/Foodly-Store/static/media/blog_about_us_01_seeds_large.221711ca.png",
     "static/media/blog_about_us_03_harvest_large.png": "/Foodly-Store/static/media/blog_about_us_03_harvest_large.193fcbe7.png",
     "static/media/MainImage.css": "/Foodly-Store/static/media/raspberries_ed450429-f3d8-4757-9507-f18101c2c057_grande.907cc8b2.jpeg",
-    "static/media/Header.css": "/Foodly-Store/static/media/img_homepage_slide_3_2d5607e9-6072-431a-9965-9e0421c370c6_2000x.211705ae.jpg",
-    "static/media/img_homepage_special_product_600x.png": "/Foodly-Store/static/media/img_homepage_special_product_600x.385ddfdd.png"
+    "static/media/img_homepage_special_product_600x.png": "/Foodly-Store/static/media/img_homepage_special_product_600x.385ddfdd.png",
+    "static/media/recipe-1_large.png": "/Foodly-Store/static/media/recipe-1_large.2b4c3b1d.png",
+    "static/media/recipe-2_large.png": "/Foodly-Store/static/media/recipe-2_large.1fcf080a.png",
+    "static/media/recipe-3_large.png": "/Foodly-Store/static/media/recipe-3_large.48de5459.png",
+    "static/media/recipe-4_large.png": "/Foodly-Store/static/media/recipe-4_large.c81370c0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7615d4e5.js",
-    "static/js/2.9ef708d9.chunk.js",
-    "static/css/main.2d5d17a9.chunk.css",
-    "static/js/main.eb021887.chunk.js"
+    "static/js/2.1a9f9057.chunk.js",
+    "static/css/main.e98d12c2.chunk.css",
+    "static/js/main.e88c731b.chunk.js"
   ]
 }

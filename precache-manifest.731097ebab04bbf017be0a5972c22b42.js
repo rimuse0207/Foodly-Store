@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1ce2c2d9e7d4ea8ad737a815f58e8498",
+    "revision": "9ec0c57f92735542c4711841455cdea8",
     "url": "/Foodly-Store/index.html"
   },
   {
-    "revision": "836a13c9c0215244f158",
-    "url": "/Foodly-Store/static/css/main.2d5d17a9.chunk.css"
+    "revision": "c6393ee79ebf3601d7a1",
+    "url": "/Foodly-Store/static/css/main.e98d12c2.chunk.css"
   },
   {
-    "revision": "39bd5ae30ad153c1f3a0",
-    "url": "/Foodly-Store/static/js/2.9ef708d9.chunk.js"
+    "revision": "d4a7b96e856fe3e66f65",
+    "url": "/Foodly-Store/static/js/2.1a9f9057.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/Foodly-Store/static/js/2.9ef708d9.chunk.js.LICENSE.txt"
+    "revision": "c64c486544348f10a6d6c716950bc223",
+    "url": "/Foodly-Store/static/js/2.1a9f9057.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "836a13c9c0215244f158",
-    "url": "/Foodly-Store/static/js/main.eb021887.chunk.js"
+    "revision": "c6393ee79ebf3601d7a1",
+    "url": "/Foodly-Store/static/js/main.e88c731b.chunk.js"
   },
   {
     "revision": "4fd5c4d3e4dfa9f1a87c",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ddc90681e2807592f20479a9c24e5d08",
     "url": "/Foodly-Store/static/media/Brandywine-tomatoes-front_grande.ddc90681.jpeg"
+  },
+  {
+    "revision": "d6ee63207d33f6110d9790516a9e2b13",
+    "url": "/Foodly-Store/static/media/baget.d6ee6320.jpg"
   },
   {
     "revision": "221711ca7bfc340f2c5b6135c00026f5",
@@ -62,5 +66,21 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "907cc8b220e298e50fab973a1d6c0a66",
     "url": "/Foodly-Store/static/media/raspberries_ed450429-f3d8-4757-9507-f18101c2c057_grande.907cc8b2.jpeg"
+  },
+  {
+    "revision": "2b4c3b1d15769095b7706ab56350d7f1",
+    "url": "/Foodly-Store/static/media/recipe-1_large.2b4c3b1d.png"
+  },
+  {
+    "revision": "1fcf080af2a1666f9e07c79d460683d6",
+    "url": "/Foodly-Store/static/media/recipe-2_large.1fcf080a.png"
+  },
+  {
+    "revision": "48de5459f092d116417e42fccda98a6a",
+    "url": "/Foodly-Store/static/media/recipe-3_large.48de5459.png"
+  },
+  {
+    "revision": "c81370c0c2a316764acef923fe076797",
+    "url": "/Foodly-Store/static/media/recipe-4_large.c81370c0.png"
   }
 ]);
