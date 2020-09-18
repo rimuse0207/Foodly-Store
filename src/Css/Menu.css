@@ -1,6 +1,7 @@
 #Menu {
   text-align: center;
   font-size: 14px;
+  z-index: 99;
 }
 #Menu > ul {
 }
@@ -41,10 +42,10 @@
 }
 
 #Menu {
-  position: absolute;
+  position: relative;
   left: 0;
   right: 0;
-  top: 105px;
+  top: 0;
   height: 70px;
   background-color: white;
 }

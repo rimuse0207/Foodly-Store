@@ -16,6 +16,15 @@ body {
   line-height: 1;
   font-size: 1em;
 }
+.yoo {
+  margin: 0 auto;
+  height: 80vh;
+  background-color: #e9e8ec;
+  line-height: 30vh;
+}
+.yoo > p {
+  font-size: 1rem;
+}
 /* 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

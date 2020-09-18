@@ -1,17 +1,18 @@
 import React from "react";
 import "../Css/Menu.css";
+import { Link } from "react-router-dom";
 const Menu: React.FC = () => {
   return (
     <div id="Menu">
       <ul>
         <li>
-          <a href="">Home +</a>
+          <Link to="/">Home +</Link>
           <ul>
             <li>
-              <a href="">Home Page v1</a>
+              <Link to="/">Home Page v1</Link>
             </li>
             <li>
-              <a href="">Home Page v2</a>
+              <Link to="/Homepage2">Home Page v2</Link>
             </li>
             <li>
               <a href="">Home Page v3</a>
@@ -62,7 +63,7 @@ const Menu: React.FC = () => {
           <a href="">Contact</a>
         </li>
         <li>
-          <a href="">Login</a>
+          <Link to="Login">Login</Link>
         </li>
       </ul>
     </div>

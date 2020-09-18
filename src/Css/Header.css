@@ -107,3 +107,98 @@
   font-weight: normal;
   color: #fff;
 }
+
+.Homepage2 {
+  background-image: url("../asset//baget.jpg");
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.Homepage2 > h2 {
+  margin-bottom: 32px;
+  font-family: "Raleway", Tahoma, Geneva, sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px;
+  color: #5c4b51;
+  padding-top: 10%;
+}
+.Homepage2 > p {
+  margin-bottom: 57px;
+  font-family: "Bitter", serif;
+  font-size: 24px;
+  font-style: italic;
+  line-height: 36px;
+  width: 43%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  color: #5c4b51;
+}
+
+.Homepage2 > span > a {
+  padding: 17px 30px;
+  text-align: center;
+  color: white;
+  background-color: #f06060;
+  border-radius: 3px;
+}
+.Homepage2 > span > a:hover {
+  cursor: pointer;
+}
+.SubMain {
+  margin-bottom: 50px;
+}
+.SubMain > ul {
+  width: 80%;
+  margin: 0 auto;
+}
+.SubMain > ul > li {
+  max-width: 360px;
+  width: 50%;
+  padding-top: 60px;
+  display: inline-block;
+  position: relative;
+  margin: 0 30px;
+}
+.SubMain > ul > li > img {
+  background-color: #f5f4f4;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.SubMain > ul > li > .left {
+  width: 70%;
+  float: left;
+}
+.SubMain > ul > li > .left > span {
+  display: block;
+  text-align: left;
+}
+.SubMain > ul > li > .left > span:first-child {
+  font-size: 18px;
+  font-weight: bold;
+}
+.SubMain > ul > li > .left > span + span {
+  color: gray;
+}
+.SubMain > ul > li > .right {
+  width: 30%;
+  float: right;
+}
+.SubMain > ul > li > .right > span {
+  margin-top: 5px;
+  float: right;
+  font-size: 30px;
+  line-height: 42px;
+  color: #f06060;
+}
+.SubMain > h2 {
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  font-weight: normal;
+  margin-top: 10%;
+}
+.SubMain > span {
+  color: gray;
+}

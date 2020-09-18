@@ -2,12 +2,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 99;
 }
 .Nav img {
   line-height: 106px;
 }
 .Nav {
-  position: absolute;
+  position: static;
   left: 0;
   right: 0;
+  background-color: #e9e8ec;
+}
+.Nav div {
+  font-family: cursive;
 }

@@ -1,0 +1,96 @@
+.wrapper {
+  border: 1px solid red;
+  padding-top: 40px;
+  height: 80vh;
+  background-color: #e9e8ec;
+}
+.wrapper > strong {
+  display: block;
+  font-family: "Raleway", Tahoma, Geneva, sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.wrapper > em {
+  color: gray;
+}
+.wrapper > form {
+  margin: 0 auto;
+  max-width: 280px;
+  margin-top: 52px;
+}
+.wrapper > form > .field {
+  position: relative;
+}
+.wrapper > form > .field > input {
+  display: block;
+  margin-bottom: 30px;
+  font-size: 14px;
+  background-color: #f5f4f4;
+  border: 1px solid #f5f4f4;
+  width: 100%;
+  padding: 11px 17px 11px 17px;
+}
+
+.wrapper > form > .field > label {
+  position: absolute;
+  left: 18px;
+  top: 14px;
+  color: gray;
+  opacity: 0;
+}
+.wrapper > form > .field > input:foucs {
+  outline: 0;
+  border-bottom: 1px solid #666;
+}
+.wrapper > form > .field > input:focus {
+  background-color: #fff;
+  outline: none;
+}
+.wrapper > form > .field > input:focus + label {
+  position: absolute;
+  top: -18px;
+  left: 17px;
+  font-size: 14px;
+  transition: all 250ms ease-in-out;
+  opacity: 1;
+}
+::-webkit-input-placeholder {
+  opacity: 1;
+  transition: inherit;
+}
+input:focus::-webkit-input-placeholder {
+  opacity: 1;
+}
+.wrapeer > form > .field > input:not(:placeholder-shown) + label,
+.wrapeer > form > .field > input:focus + label {
+  transition: all 250ms ease-in-out;
+}
+.wrapper > form > .field > input,
+.wrapper > form > .field > label {
+  transition: all 0.2s;
+  touch-action: manipulation;
+}
+.wrapper > form > span {
+  display: block;
+  color: red;
+  margin-bottom: 30px;
+}
+.wrapper > form > button {
+  background-color: #f06060;
+  color: white;
+  width: 100%;
+  padding: 17px 30px;
+  text-align: center;
+  border-radius: 3px;
+  display: inline-block;
+  font-family: "Raleway", Tahoma, Geneva, sans-serif;
+  font-weight: 800;
+  letter-spacing: 1px;
+  border: none;
+  margin-bottom: 30px;
+}
+.wrapper > span > a > span {
+  color: red;
+}

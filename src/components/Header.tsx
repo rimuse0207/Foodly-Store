@@ -1,6 +1,9 @@
 import React, { useState } from "react";
-import Nav from "./Nav";
-import Menu from "./Menu";
+import SliderImage from "./SliderImage";
+import MainImage from "./MainImage";
+
+import Calculate from "./Calculate";
+import Introduce from "./Introduce";
 import "../Css/Header.css";
 
 const Header: React.FC = () => {
@@ -85,35 +88,41 @@ const Header: React.FC = () => {
     setClickOn(text);
   };
   return (
-    <div className="Header">
-      <Nav></Nav>
-      <Menu></Menu>
-      <ul className="slides">
-        {ClickOn === "Tomato" ? <Tomato></Tomato> : <div></div>}
-        {ClickOn === "Paper" ? <Paper></Paper> : <div></div>}
-        {ClickOn === "Apple" ? <Apple></Apple> : <div></div>}
-      </ul>
-      <ol className="navcontrol">
-        <li
-          className={ClickOn === "Tomato" ? "on" : ""}
-          onClick={(e) => handleClick("Tomato")}
-        >
-          <img src={tomato}></img>
-        </li>
-        <li
-          className={ClickOn === "Paper" ? "on" : ""}
-          onClick={(e) => handleClick("Paper")}
-        >
-          <img src={paper}></img>
-        </li>
-        <li
-          className={ClickOn === "Apple" ? "on" : ""}
-          onClick={(e) => handleClick("Apple")}
-        >
-          <img src={apple}></img>
-        </li>
-      </ol>
-    </div>
+    <>
+      <div className="Header">
+        {/* <Nav></Nav>
+      <Menu></Menu> */}
+        <ul className="slides">
+          {ClickOn === "Tomato" ? <Tomato></Tomato> : <div></div>}
+          {ClickOn === "Paper" ? <Paper></Paper> : <div></div>}
+          {ClickOn === "Apple" ? <Apple></Apple> : <div></div>}
+        </ul>
+        <ol className="navcontrol">
+          <li
+            className={ClickOn === "Tomato" ? "on" : ""}
+            onClick={(e) => handleClick("Tomato")}
+          >
+            <img src={tomato}></img>
+          </li>
+          <li
+            className={ClickOn === "Paper" ? "on" : ""}
+            onClick={(e) => handleClick("Paper")}
+          >
+            <img src={paper}></img>
+          </li>
+          <li
+            className={ClickOn === "Apple" ? "on" : ""}
+            onClick={(e) => handleClick("Apple")}
+          >
+            <img src={apple}></img>
+          </li>
+        </ol>
+      </div>
+      <MainImage></MainImage>
+      <SliderImage></SliderImage>
+      <Calculate></Calculate>
+      <Introduce></Introduce>
+    </>
   );
 };
 
