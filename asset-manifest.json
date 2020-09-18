@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Foodly-Store/static/css/main.e98d12c2.chunk.css",
-    "main.js": "/Foodly-Store/static/js/main.99e632b4.chunk.js",
-    "main.js.map": "/Foodly-Store/static/js/main.99e632b4.chunk.js.map",
+    "main.css": "/Foodly-Store/static/css/main.4a49660b.chunk.css",
+    "main.js": "/Foodly-Store/static/js/main.fc8a0547.chunk.js",
+    "main.js.map": "/Foodly-Store/static/js/main.fc8a0547.chunk.js.map",
     "runtime-main.js": "/Foodly-Store/static/js/runtime-main.7615d4e5.js",
     "runtime-main.js.map": "/Foodly-Store/static/js/runtime-main.7615d4e5.js.map",
     "static/js/2.1a9f9057.chunk.js": "/Foodly-Store/static/js/2.1a9f9057.chunk.js",
     "static/js/2.1a9f9057.chunk.js.map": "/Foodly-Store/static/js/2.1a9f9057.chunk.js.map",
     "index.html": "/Foodly-Store/index.html",
-    "precache-manifest.5cc7477115600b03dcb9b036b29657b7.js": "/Foodly-Store/precache-manifest.5cc7477115600b03dcb9b036b29657b7.js",
+    "precache-manifest.a5421e39d99653efefe64e07d95dcd12.js": "/Foodly-Store/precache-manifest.a5421e39d99653efefe64e07d95dcd12.js",
     "service-worker.js": "/Foodly-Store/service-worker.js",
-    "static/css/main.e98d12c2.chunk.css.map": "/Foodly-Store/static/css/main.e98d12c2.chunk.css.map",
+    "static/css/main.4a49660b.chunk.css.map": "/Foodly-Store/static/css/main.4a49660b.chunk.css.map",
     "static/js/2.1a9f9057.chunk.js.LICENSE.txt": "/Foodly-Store/static/js/2.1a9f9057.chunk.js.LICENSE.txt",
     "static/media/Basil_grande.jpeg": "/Foodly-Store/static/media/Basil_grande.c5770c69.jpeg",
     "static/media/Brandywine-tomatoes-front_grande.jpeg": "/Foodly-Store/static/media/Brandywine-tomatoes-front_grande.ddc90681.jpeg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.7615d4e5.js",
     "static/js/2.1a9f9057.chunk.js",
-    "static/css/main.e98d12c2.chunk.css",
-    "static/js/main.99e632b4.chunk.js"
+    "static/css/main.4a49660b.chunk.css",
+    "static/js/main.fc8a0547.chunk.js"
   ]
 }

@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5005c75506b0e2004545532573a4718d",
+    "revision": "1512df1cb5b5f87b09f690f471a78e9c",
     "url": "/Foodly-Store/index.html"
   },
   {
-    "revision": "66ae0609ccb9ecd2c166",
-    "url": "/Foodly-Store/static/css/main.e98d12c2.chunk.css"
+    "revision": "6747400da4b44c425c09",
+    "url": "/Foodly-Store/static/css/main.4a49660b.chunk.css"
   },
   {
     "revision": "d4a7b96e856fe3e66f65",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Foodly-Store/static/js/2.1a9f9057.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "66ae0609ccb9ecd2c166",
-    "url": "/Foodly-Store/static/js/main.99e632b4.chunk.js"
+    "revision": "6747400da4b44c425c09",
+    "url": "/Foodly-Store/static/js/main.fc8a0547.chunk.js"
   },
   {
     "revision": "4fd5c4d3e4dfa9f1a87c",
