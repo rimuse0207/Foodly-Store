@@ -22,6 +22,7 @@ const Products: React.FC = () => {
             </div>
             <span>All products</span>
           </a>
+          <div className="colorChangeHover"></div>
         </li>
         <li>
           <a href="">
