@@ -1,7 +1,7 @@
 .Calculate {
   height: 90vh;
   padding: 40px;
-  border: 1px solid red;
+
   background-color: #f2f3f5;
 }
 .Calculate > .Cal_left {
@@ -10,7 +10,6 @@
   width: 50%;
   height: 50%;
   position: relative;
-  border: 1px solid olive;
 }
 .Calculate > .Cal_left > div:first-child {
   position: absolute;
@@ -22,7 +21,6 @@
   height: 50%;
   top: 25%;
   position: relative;
-  border: 1px solid lime;
 }
 .Calculate > .Cal_right > img {
   height: 100%;
@@ -63,13 +61,11 @@
 
 @media (max-width: 700px) {
   .Calculate > .Cal_left {
-    border: 1px solid red;
     float: initial;
     top: 0;
     width: 100%;
   }
   .Calculate > .Cal_right {
-    border: 1px solid orange;
     float: initial;
     width: 100%;
     top: 0;

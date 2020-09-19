@@ -30,7 +30,7 @@ const Menu: React.FC = () => {
             </ul>
           </li>
           <li>
-            <a href="#">Products +</a>
+            <a href="/Products">Products +</a>
             <ul>
               <li>
                 <a href="">FRESH</a>
