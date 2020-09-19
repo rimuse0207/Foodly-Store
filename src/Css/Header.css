@@ -229,4 +229,16 @@
     width: 35px;
     height: 35px;
   }
+  .Homepage2 {
+    height: 60vh;
+  }
+  .Homepage2 > h2 {
+    font-size: 30px;
+  }
+  .Homepage2 > p {
+    font-size: 12px;
+  }
+  .SubMain > ul > li {
+    width: auto;
+  }
 }

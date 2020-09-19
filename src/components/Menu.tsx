@@ -4,11 +4,12 @@ import { Link } from "react-router-dom";
 const Menu: React.FC = () => {
   return (
     <div id="menuToggle">
-      <input type="checkbox" />
-
-      <span></span>
-      <span></span>
-      <span></span>
+      <input type="checkbox" id="hamburger" />
+      <label htmlFor="hambuger" className="LABAL">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
       <div id="Menu">
         <ul>
           <li>
@@ -29,7 +30,7 @@ const Menu: React.FC = () => {
             </ul>
           </li>
           <li>
-            <a href="">Products +</a>
+            <a href="#">Products +</a>
             <ul>
               <li>
                 <a href="">FRESH</a>
