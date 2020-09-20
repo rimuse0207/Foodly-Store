@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Foodly-Store/precache-manifest.8af95e5d045a0630f2eef22b83fed03d.js"
+  "/Foodly-Store/precache-manifest.ef35c32732a7e27e69bf46a7751f9c56.js"
 );
 
 self.addEventListener('message', (event) => {

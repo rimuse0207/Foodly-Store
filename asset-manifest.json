@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Foodly-Store/static/css/main.c5abe6a4.chunk.css",
-    "main.js": "/Foodly-Store/static/js/main.c0094585.chunk.js",
-    "main.js.map": "/Foodly-Store/static/js/main.c0094585.chunk.js.map",
+    "main.js": "/Foodly-Store/static/js/main.f553cad3.chunk.js",
+    "main.js.map": "/Foodly-Store/static/js/main.f553cad3.chunk.js.map",
     "runtime-main.js": "/Foodly-Store/static/js/runtime-main.7615d4e5.js",
     "runtime-main.js.map": "/Foodly-Store/static/js/runtime-main.7615d4e5.js.map",
     "static/js/2.8dc0c749.chunk.js": "/Foodly-Store/static/js/2.8dc0c749.chunk.js",
     "static/js/2.8dc0c749.chunk.js.map": "/Foodly-Store/static/js/2.8dc0c749.chunk.js.map",
     "index.html": "/Foodly-Store/index.html",
-    "precache-manifest.8af95e5d045a0630f2eef22b83fed03d.js": "/Foodly-Store/precache-manifest.8af95e5d045a0630f2eef22b83fed03d.js",
+    "precache-manifest.ef35c32732a7e27e69bf46a7751f9c56.js": "/Foodly-Store/precache-manifest.ef35c32732a7e27e69bf46a7751f9c56.js",
     "service-worker.js": "/Foodly-Store/service-worker.js",
     "static/css/main.c5abe6a4.chunk.css.map": "/Foodly-Store/static/css/main.c5abe6a4.chunk.css.map",
     "static/js/2.8dc0c749.chunk.js.LICENSE.txt": "/Foodly-Store/static/js/2.8dc0c749.chunk.js.LICENSE.txt",
@@ -40,6 +40,6 @@
     "static/js/runtime-main.7615d4e5.js",
     "static/js/2.8dc0c749.chunk.js",
     "static/css/main.c5abe6a4.chunk.css",
-    "static/js/main.c0094585.chunk.js"
+    "static/js/main.f553cad3.chunk.js"
   ]
 }
