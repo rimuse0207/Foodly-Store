@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "314ce3fe7bbbcda785b5081f4e96f52f",
+    "revision": "2818c5d02e29ee1e6242393b663f11f4",
     "url": "/Foodly-Store/index.html"
   },
   {
-    "revision": "1ce5f13c03254703510a",
-    "url": "/Foodly-Store/static/css/main.d066d98f.chunk.css"
+    "revision": "ba9c491df3e0de5dea37",
+    "url": "/Foodly-Store/static/css/main.19eadfc9.chunk.css"
   },
   {
-    "revision": "d4a7b96e856fe3e66f65",
-    "url": "/Foodly-Store/static/js/2.1a9f9057.chunk.js"
+    "revision": "07aa608f3c7860cc2e57",
+    "url": "/Foodly-Store/static/js/2.8dc0c749.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Foodly-Store/static/js/2.1a9f9057.chunk.js.LICENSE.txt"
+    "url": "/Foodly-Store/static/js/2.8dc0c749.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1ce5f13c03254703510a",
-    "url": "/Foodly-Store/static/js/main.cf906742.chunk.js"
+    "revision": "ba9c491df3e0de5dea37",
+    "url": "/Foodly-Store/static/js/main.9b0188b3.chunk.js"
   },
   {
     "revision": "4fd5c4d3e4dfa9f1a87c",
@@ -32,6 +32,38 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Foodly-Store/static/media/Brandywine-tomatoes-front_grande.ddc90681.jpeg"
   },
   {
+    "revision": "8224b8df0c3238d1c3027234c1486c16",
+    "url": "/Foodly-Store/static/media/Pasta_with_Swordfish_and_Cherry_Tomato_Sauce_large.8224b8df.png"
+  },
+  {
+    "revision": "5b51a6e0640f05251d7ce21dcfe2c9ed",
+    "url": "/Foodly-Store/static/media/Plum_Freezer_Jam_with_Cardamon_and_Ginger_large.5b51a6e0.png"
+  },
+  {
+    "revision": "3e34c74312e014b7824b8d028e30f59f",
+    "url": "/Foodly-Store/static/media/Risotto_with_Kale_Pesto_large.3e34c743.png"
+  },
+  {
+    "revision": "fba40da2d22c6c9941083aa7caa187f4",
+    "url": "/Foodly-Store/static/media/Spinach-Puffs_large.fba40da2.jpg"
+  },
+  {
+    "revision": "7dfcecbc0fdeeddaca2b5ab31ac7fff0",
+    "url": "/Foodly-Store/static/media/about_us_01_large.7dfcecbc.jpg"
+  },
+  {
+    "revision": "23106b20b3a65043338c9eb6e224fe37",
+    "url": "/Foodly-Store/static/media/about_us_02_large.23106b20.jpg"
+  },
+  {
+    "revision": "9ba124de9115ff0a320a3fa7bf731b48",
+    "url": "/Foodly-Store/static/media/about_us_03_large.9ba124de.jpg"
+  },
+  {
+    "revision": "17e32054f185adb5305251ad49b8a703",
+    "url": "/Foodly-Store/static/media/article_01_large.17e32054.jpg"
+  },
+  {
     "revision": "d6ee63207d33f6110d9790516a9e2b13",
     "url": "/Foodly-Store/static/media/baget.d6ee6320.jpg"
   },
@@ -42,6 +74,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "193fcbe797ec3bc5c14ca4f5a27a2d25",
     "url": "/Foodly-Store/static/media/blog_about_us_03_harvest_large.193fcbe7.png"
+  },
+  {
+    "revision": "b87ea8b0a5fdbdb6b88c3804db214e45",
+    "url": "/Foodly-Store/static/media/blog_news_01_large.b87ea8b0.jpg"
+  },
+  {
+    "revision": "fb7949040653ea51b632164b5dc3badb",
+    "url": "/Foodly-Store/static/media/blog_news_02_large.fb794904.jpg"
   },
   {
     "revision": "e03a3183d111bb3bef7a16ab5da815ad",
@@ -62,6 +102,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "385ddfddf3151fdd2799fb5e63d82e4c",
     "url": "/Foodly-Store/static/media/img_homepage_special_product_600x.385ddfdd.png"
+  },
+  {
+    "revision": "c404f97085367bb1c73b476c1a19e3b6",
+    "url": "/Foodly-Store/static/media/pasta-pomodoro-with-shrimp-horiz-a-800_grande_99f8f7fb-8733-41b3-82db-3e2641572e56_large.c404f970.jpg"
   },
   {
     "revision": "907cc8b220e298e50fab973a1d6c0a66",
