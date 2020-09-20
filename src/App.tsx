@@ -12,6 +12,7 @@ import {
   Blog,
   Recipes,
   Pages,
+  Contact,
 } from "./pages";
 import Nav from "./components/Nav";
 import Menu from "./components/Menu";
@@ -29,6 +30,7 @@ const App: React.FC = () => {
       <Route path="/Blog" component={Blog}></Route>
       <Route path="/Recipes" component={Recipes}></Route>
       <Route path="/Pages" component={Pages}></Route>
+      <Route path="/Contact" component={Contact}></Route>
       {/* <Header></Header> */}
       <main></main>
     </div>

@@ -67,7 +67,7 @@ const Menu: React.FC = () => {
             </ul>
           </li>
           <li>
-            <a href="">Contact</a>
+            <a href="/Contact">Contact</a>
           </li>
           <li>
             <Link to="Login">Login</Link>

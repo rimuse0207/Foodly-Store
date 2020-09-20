@@ -7,3 +7,4 @@ export { default as Products } from "../components/products/Products";
 export { default as Blog } from "../components/Blog/Blog";
 export { default as Recipes } from "../components/Recipes/Recipes";
 export { default as Pages } from "../components/Pageses/Pages";
+export { default as Contact } from "../components/Contact/Contact";
