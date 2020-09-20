@@ -6,7 +6,7 @@ import { Switch, BrowserRouter, Route } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
-  <BrowserRouter basename="/Foodly-Store">
+  <BrowserRouter basename="http://rimuse0207.github.io/Foodly-Store">
     <Switch>
       <React.StrictMode>
         <App />
