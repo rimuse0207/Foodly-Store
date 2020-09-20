@@ -30,7 +30,7 @@ const Menu: React.FC = () => {
             </ul>
           </li>
           <li>
-            <a href="/Products">Products +</a>
+            <Link to="/Products">Products +</Link>
             <ul>
               <li>
                 <a href="">FRESH</a>
@@ -47,13 +47,13 @@ const Menu: React.FC = () => {
             </ul>
           </li>
           <li>
-            <a href="/Blog">Blog</a>
+            <Link to="/Blog">Blog</Link>
           </li>
           <li>
-            <a href="/Recipes">Recipes</a>
+            <Link to="/Recipes">Recipes</Link>
           </li>
           <li>
-            <a href="/Pages">Pages +</a>
+            <Link to="/Pages">Pages +</Link>
             <ul>
               <li>
                 <a href="">About As</a>
@@ -67,7 +67,7 @@ const Menu: React.FC = () => {
             </ul>
           </li>
           <li>
-            <a href="/Contact">Contact</a>
+            <Link to="/Contact">Contact</Link>
           </li>
           <li>
             <Link to="Login">Login</Link>
