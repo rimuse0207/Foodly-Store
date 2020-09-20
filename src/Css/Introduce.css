@@ -160,4 +160,10 @@
     bottom: 10px;
     top: auto;
   }
+  .prev {
+    left: 50px;
+  }
+  .next {
+    right: 50px;
+  }
 }

@@ -50,10 +50,10 @@ const Menu: React.FC = () => {
             <a href="/Blog">Blog</a>
           </li>
           <li>
-            <a href="">Recipes</a>
+            <a href="/Recipes">Recipes</a>
           </li>
           <li>
-            <a href="">Pages +</a>
+            <a href="/Pages">Pages +</a>
             <ul>
               <li>
                 <a href="">About As</a>

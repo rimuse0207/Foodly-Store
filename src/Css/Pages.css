@@ -1,0 +1,77 @@
+.Pages {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.Pages > h2 {
+  font-family: "Raleway", Tahoma, Geneva, sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.Pages > .Pages_span {
+  color: gray;
+}
+.Pages > p {
+  display: block;
+  margin: 0 auto;
+
+  line-height: 30px;
+  text-align: left;
+  width: 70%;
+  font-family: "Raleway", Tahoma, Geneva, sans-serif, sans-serif;
+  color: #5c4b51;
+}
+
+.Pages > span {
+  display: block;
+  margin-bottom: 30px;
+}
+.Pages > span:nth-child(4) {
+  text-align: left;
+  margin: 30px auto;
+  width: 70%;
+}
+.Pages > ul {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 70%;
+}
+.Pages > ul > li {
+  margin: 0 auto;
+  list-style: square;
+  text-align: left;
+  width: 80%;
+  position: relative;
+  padding-left: 40px;
+  right: 0;
+  padding-bottom: 20px;
+  font-family: "Raleway", Tahoma, Geneva, sans-serif, sans-serif;
+  color: #5c4b51;
+}
+
+.Pages > .Pages_Image > li {
+  list-style: none;
+  display: inline-block;
+  max-width: 33%;
+  max-height: 33%;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 30px;
+}
+.Pages > .Pages_Image > li > img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.Pages {
+  margin-bottom: 80px;
+}
+
+@media (max-width: 700px) {
+  .Pages > .Pages_Image > li {
+    max-width: 100%;
+    width: 100%;
+  }
+}
