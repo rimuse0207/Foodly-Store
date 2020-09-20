@@ -2,7 +2,15 @@ import React from "react";
 import "./App.css";
 
 import { Route } from "react-router-dom";
-import { Home, Login, SignUp, HomePage2, FoodlyStore, Products } from "./pages";
+import {
+  Home,
+  Login,
+  SignUp,
+  HomePage2,
+  FoodlyStore,
+  Products,
+  Blog,
+} from "./pages";
 import Nav from "./components/Nav";
 import Menu from "./components/Menu";
 const App: React.FC = () => {
@@ -16,6 +24,7 @@ const App: React.FC = () => {
       <Route path="/login" component={Login}></Route>
       <Route path="/SignUp" component={SignUp}></Route>
       <Route path="/Products" component={Products}></Route>
+      <Route path="/Blog" component={Blog}></Route>
       {/* <Header></Header> */}
       <main></main>
     </div>

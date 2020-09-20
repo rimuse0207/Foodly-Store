@@ -1,5 +1,5 @@
 .Products img {
-  background-color: #f5f4f4;
+  background-color: none;
   width: 50%;
   position: absolute;
   top: 25%;
@@ -37,5 +37,7 @@
 
 .Products > ul > li > a > div:hover {
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 1;
+  background-color: #ea5f61;
+  transition: ease-in-out 0.5s;
 }
