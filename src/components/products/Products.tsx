@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../../Css/Products.css";
 type Prodcutss = {
   id: number;
@@ -6,7 +7,7 @@ type Prodcutss = {
   title: string;
 };
 const Products: React.FC = () => {
-  const [productss, setProductss] = useState([
+  const [Productss, setProductss] = useState<Prodcutss[]>([
     {
       id: 1,
       img: "collection_01_all_large (1).jpeg",
@@ -48,28 +49,20 @@ const Products: React.FC = () => {
       title: "Cooked",
     },
   ]);
-  const All_products = require("../../asset/Products/collection_01_all_large (1).jpeg");
-  const Fresh = require("../../asset/Products/collection_02_fresh_small.png");
-  const Frozen = require("../../asset/Products/collection_03_frozen_small.png");
-  const Dried = require("../../asset/Products/collection_04_dried_small.png");
-  const Liquid = require("../../asset/Products/collection_05_liquid_small.png");
-  const Sale = require("../../asset/Products/collection_06_sale_large.png");
-  const Specials = require("../../asset/Products/collection_07_specials_large.png");
-  const Cooked = require("../../asset/Products/collection_08_cooked_large.png");
 
   return (
     <div className="Products">
       <h2>PRODUCT COLLECTIONS</h2>
       <ul>
-        {productss.map((list) => {
+        {Productss.map((list) => {
           return (
             <li key={list.id}>
-              <a href="">
+              <Link to={`/Products/${list.title}`}>
                 <div>
                   <img src={require(`../../asset/Products/${list.img}`)}></img>
                 </div>
                 <span>{list.title}</span>
-              </a>
+              </Link>
               <div className="colorChangeHover"></div>
             </li>
           );

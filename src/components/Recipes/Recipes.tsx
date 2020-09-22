@@ -9,7 +9,7 @@ type Recipes = {
   writer: string;
 };
 const Recipes: React.FC = () => {
-  const [Recipes, SetRecipes] = useState([
+  const [Recipes, SetRecipes] = useState<Recipes[]>([
     {
       id: 1,
       img: "Recipes/Plum_Freezer_Jam_with_Cardamon_and_Ginger_large.png",

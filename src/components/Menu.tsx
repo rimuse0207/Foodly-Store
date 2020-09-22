@@ -13,10 +13,10 @@ const Menu: React.FC = () => {
       <div id="Menu">
         <ul>
           <li>
-            <Link to="/">Home +</Link>
+            <Link to="/Homepage1">Home +</Link>
             <ul>
               <li>
-                <Link to="/">Home Page v1</Link>
+                <Link to="/Homepage1">Home Page v1</Link>
               </li>
               <li>
                 <Link to="/Homepage2">Home Page v2</Link>
@@ -33,16 +33,16 @@ const Menu: React.FC = () => {
             <Link to="/Products">Products +</Link>
             <ul>
               <li>
-                <a href="">FRESH</a>
+                <Link to="/Products/Fresh">FRESH</Link>
               </li>
               <li>
-                <a href="">FROZEN</a>
+                <Link to="/Products/Frozen">FROZEN</Link>
               </li>
               <li>
-                <a href="">DRIED</a>
+                <Link to="/Products/Dried">DRIED</Link>
               </li>
               <li>
-                <a href="">LIQUID</a>
+                <Link to="/Products/Liquid">LIQUID</Link>
               </li>
             </ul>
           </li>

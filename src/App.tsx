@@ -7,12 +7,14 @@ import {
   Login,
   SignUp,
   HomePage2,
+  Homepage1,
   FoodlyStore,
   Products,
   Blog,
   Recipes,
   Pages,
   Contact,
+  Fresh,
 } from "./pages";
 import Nav from "./components/Nav";
 import Menu from "./components/Menu";
@@ -23,14 +25,16 @@ const App: React.FC = () => {
       <Menu></Menu>
       <Route exact path="/" component={Home}></Route>
       <Route path="/Foodly-Store" component={FoodlyStore}></Route>
+      <Route path="/Homepage1" component={Homepage1}></Route>
       <Route path="/Homepage2" component={HomePage2}></Route>
       <Route path="/login" component={Login}></Route>
       <Route path="/SignUp" component={SignUp}></Route>
-      <Route path="/Products" component={Products}></Route>
+      <Route exact path="/Products" component={Products}></Route>
       <Route path="/Blog" component={Blog}></Route>
       <Route path="/Recipes" component={Recipes}></Route>
       <Route path="/Pages" component={Pages}></Route>
       <Route path="/Contact" component={Contact}></Route>
+      <Route path="/Products/:key" component={Fresh}></Route>
       {/* <Header></Header> */}
       <main></main>
     </div>

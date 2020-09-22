@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import { Switch, BrowserRouter, Route } from "react-router-dom";
+import { Switch, BrowserRouter } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
-  <BrowserRouter basename="/">
+  <BrowserRouter>
     <Switch>
       <React.StrictMode>
         <App />

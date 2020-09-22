@@ -34,7 +34,11 @@
 .Products > ul > li {
   display: inline-block;
 }
-
+.imgss {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
 .Products > ul > li > a > div:hover {
   cursor: pointer;
   opacity: 1;

@@ -1,12 +1,16 @@
 import React, { useState } from "react";
-import "../Css/Header.css";
+import SliderImage from "./../SliderImage";
+import MainImage from "./../MainImage";
 
-const Header: React.FC = () => {
+import Calculate from "./../Calculate";
+import Introduce from "./../Introduce";
+import "../../Css/Header.css";
+
+const Homepage1: React.FC = () => {
   const [ClickOn, setClickOn] = useState<string>("Tomato");
-
-  const tomato = require("../asset/img_thumb_homepage_slide_1_3646b5c7-695e-4d0f-9e50-3c90ef410fbf_150x.jpg");
-  const paper = require("../asset/img_thumb_homepage_slide_2_0e49cdfc-a372-4dd9-a54a-1ac37bcd648a_150x.jpg");
-  const apple = require("../asset/img_thumb_homepage_slide_3_7d484d7e-7ff3-4e10-b498-a27b89910779_150x.jpg");
+  const tomato = require("../../asset/img_thumb_homepage_slide_1_3646b5c7-695e-4d0f-9e50-3c90ef410fbf_150x.jpg");
+  const paper = require("../../asset/img_thumb_homepage_slide_2_0e49cdfc-a372-4dd9-a54a-1ac37bcd648a_150x.jpg");
+  const apple = require("../../asset/img_thumb_homepage_slide_3_7d484d7e-7ff3-4e10-b498-a27b89910779_150x.jpg");
   const Tomato = () => {
     return (
       <li className="TOMATO">
@@ -114,8 +118,12 @@ const Header: React.FC = () => {
           </li>
         </ol>
       </div>
+      <MainImage></MainImage>
+      <SliderImage></SliderImage>
+      <Calculate></Calculate>
+      <Introduce></Introduce>
     </>
   );
 };
 
-export default Header;
+export default Homepage1;
