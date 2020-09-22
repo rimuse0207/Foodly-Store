@@ -7,7 +7,7 @@ const Nav: React.FC = () => {
   return (
     <div className="Nav">
       <div>Organic food by Whytes'</div>
-      <Link to="/">
+      <Link to="/Homepage1">
         <img src={logo}></img>
       </Link>
       <div>from Manitoba, Canada</div>

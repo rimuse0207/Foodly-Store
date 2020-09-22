@@ -1,12 +1,9 @@
 .Sliders {
-  border: 1px solid lime;
 }
 .Sliders > ul {
-  border: 1px solid red;
   display: flex;
 }
 .Sliders > ul > li {
-  border: 1px solid blue;
   width: 25%;
   height: 35vh;
   background-repeat: no-repeat;

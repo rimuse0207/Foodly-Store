@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { RouteComponentProps } from "react-router-dom";
 import "../../Css/Products.css";
 type Items = {
   id: number;
@@ -8,7 +9,8 @@ type Items = {
   price: number;
   Description: string;
 };
-const Fresh: React.FC = () => {
+
+const Fresh: React.FC = (props: RouteComponentProps<{ key: string }>) => {
   const [items, setItems] = useState<Items[]>([
     {
       id: 1,
@@ -357,12 +359,12 @@ const Fresh: React.FC = () => {
     },
   ]);
   const daaa = items.filter((list) => {
-    return list.Products.indexOf("Fresh") > -1;
+    return list.Products.indexOf(props.match.params.key) > -1;
   });
   return (
     <div className="Products">
-      <h2>FROZEN</h2>
-      <span>{items.length} products in collection</span>
+      <h2>{props.match.params.key}</h2>
+      <span>{daaa.length} products in collection</span>
       <ul>
         {daaa.map((list) => {
           return (

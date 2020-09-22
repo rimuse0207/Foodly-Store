@@ -1,5 +1,4 @@
 .wrap {
-  border: 1px solid red;
   overflow: hidden;
 }
 
@@ -16,7 +15,6 @@
   cursor: pointer;
 }
 .wrap > .left {
-  border: 1px solid blue;
   background-image: url("../asset/dada.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -84,7 +82,6 @@
   float: right;
 }
 .wrap > .right {
-  border: 1px solid blue;
   float: right;
   width: 50%;
   height: 80vh;
