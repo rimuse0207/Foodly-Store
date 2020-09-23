@@ -15,6 +15,7 @@ import {
   Pages,
   Contact,
   Fresh,
+  ShowItem,
 } from "./pages";
 import Nav from "./components/Nav";
 import Menu from "./components/Menu";
@@ -35,6 +36,7 @@ const App: React.FC = () => {
       <Route path="/Pages" component={Pages}></Route>
       <Route path="/Contact" component={Contact}></Route>
       <Route path="/Products/:key" component={Fresh}></Route>
+      <Route path="/ShowItem" component={ShowItem}></Route>
       {/* <Header></Header> */}
       <main></main>
     </div>

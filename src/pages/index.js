@@ -10,3 +10,4 @@ export { default as Pages } from "../components/Pageses/Pages";
 export { default as Contact } from "../components/Contact/Contact";
 export { default as Homepage1 } from "../components/Homepage/Homepage1";
 export { default as Fresh } from "../components/products/Fresh";
+export { default as ShowItem } from "../components/products/ShowItem";
