@@ -1,6 +1,6 @@
 const GET_DATA = "data/GET_DATA" as const;
-export const getData = () => ({ type: GET_DATA });
-type DataListStateAction = ReturnType<typeof getData>;
+// export const getData = () => ({ type: GET_DATA });
+// type DataListStateAction = ReturnType<typeof getData>;
 type DataListState = {
   DataList: any;
 };
@@ -353,10 +353,7 @@ const initialState: DataListState = {
     },
   ],
 };
-function data(
-  state: DataListState = initialState,
-  action: DataListStateAction
-) {
+function data(state: DataListState = initialState, action) {
   switch (action.type) {
     case GET_DATA:
       return state;

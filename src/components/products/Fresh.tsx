@@ -1,18 +1,8 @@
 import React from "react";
 import { RouteComponentProps, Link } from "react-router-dom";
-import { useSelector, useDispatch } from "react-redux";
-import { getData } from "../../modules/data";
+import { useSelector } from "react-redux";
 import { RootState } from "../../modules";
 import "../../Css/Products.css";
-
-type Items = {
-  id: number;
-  Products: any;
-  img: any;
-  name: string;
-  price: number;
-  Description: string;
-};
 
 const Fresh: React.FC = (props: RouteComponentProps<{ key: string }>) => {
   const data = useSelector((state: RootState) => {
@@ -22,7 +12,6 @@ const Fresh: React.FC = (props: RouteComponentProps<{ key: string }>) => {
     return list.Products.indexOf(props.match.params.key) > -1;
   });
 
-  console.log(data);
   return (
     <div className="Products">
       <h2>{props.match.params.key}</h2>
@@ -31,7 +20,7 @@ const Fresh: React.FC = (props: RouteComponentProps<{ key: string }>) => {
         {daaa.map((list) => {
           return (
             <li style={{ marginBottom: "60px" }} key={list.id}>
-              <Link to="ShowItem">
+              <Link to={`/Products/${props.match.params.key}/${list.name}`}>
                 <div>
                   <img
                     className="imgss"

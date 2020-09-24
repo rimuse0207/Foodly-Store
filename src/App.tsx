@@ -35,8 +35,8 @@ const App: React.FC = () => {
       <Route path="/Recipes" component={Recipes}></Route>
       <Route path="/Pages" component={Pages}></Route>
       <Route path="/Contact" component={Contact}></Route>
-      <Route path="/Products/:key" component={Fresh}></Route>
-      <Route path="/ShowItem" component={ShowItem}></Route>
+      <Route exact path="/Products/:key" component={Fresh}></Route>
+      <Route path="/Products/:key/:name" component={ShowItem}></Route>
       {/* <Header></Header> */}
       <main></main>
     </div>
