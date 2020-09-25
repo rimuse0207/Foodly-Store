@@ -1,9 +1,13 @@
 import React, { useState } from "react";
 import "../Css/Header.css";
 
-const Header: React.FC = () => {
-  const [ClickOn, setClickOn] = useState<string>("Tomato");
+type ImgProps = {
+  images: any;
+};
 
+const Header: React.FC<ImgProps> = ({ images }) => {
+  const [ClickOn, setClickOn] = useState<string>("Tomato");
+  console.log(images);
   const tomato = require("../asset/img_thumb_homepage_slide_1_3646b5c7-695e-4d0f-9e50-3c90ef410fbf_150x.jpg");
   const paper = require("../asset/img_thumb_homepage_slide_2_0e49cdfc-a372-4dd9-a54a-1ac37bcd648a_150x.jpg");
   const apple = require("../asset/img_thumb_homepage_slide_3_7d484d7e-7ff3-4e10-b498-a27b89910779_150x.jpg");

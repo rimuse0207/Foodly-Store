@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { RouteComponentProps } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { RootState } from "../../modules";
+
+import ShowDetail from "./SHowDetail";
 type DataList = {
   id: number;
   Products: any;
@@ -25,8 +27,12 @@ const ShowItem: React.FC = (
       return list;
     }
   });
-  console.log(daaa);
-  return <div>{daaa[0].name}asdasdasdasd</div>;
+
+  return (
+    <div>
+      <ShowDetail images={daaa[0].img}></ShowDetail>
+    </div>
+  );
 };
 
 export default ShowItem;
