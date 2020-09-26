@@ -212,7 +212,7 @@ const initialState: DataListState = {
       Products: ["Liquid", "Fresh", "Sale", "All products"],
       img: [
         "Liquid/Peaches1.webp",
-        "Liquid/Peaches2.webp",
+        "Liquid/peaches2.webp",
         "Liquid/Peaches3.webp",
       ],
       name: "Peaches",
@@ -262,7 +262,7 @@ const initialState: DataListState = {
       Products: ["Fresh", "All products"],
       img: [
         "Fresh/Campari-Tomatoes-closer2.webp",
-        "Fresh/Campari-Tomatoes-closer1.webp",
+        "Fresh/Campari-Tomatoes.webp",
       ],
       name: "Campari Tomatoes",
       price: 11.0,
@@ -306,7 +306,7 @@ const initialState: DataListState = {
       img: [
         "Fresh/Golden-Delicious-Apples1.webp",
         "Fresh/Golden-Delicious-Apples2.webp",
-        "Fresh/Golden-Delicious-Apples3.webp",
+        "Fresh/Golden-Delicious3.webp",
       ],
       name: "Golden Delicious Apples",
       price: 2.3,

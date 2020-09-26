@@ -8,10 +8,6 @@ type ImgProps = {
 const ShowDetail: React.FC<ImgProps> = ({ images }) => {
   const [ClickOn, setClickOn] = useState<string>("image1");
 
-  const tomato = require(`../../asset/Products/${images[0]}`);
-  const paper = require(`../../asset/Products/${images[1]}`);
-  const apple = require(`../../asset/Products/${images[2]}`);
-
   const Tomato = () => {};
 
   const handleClick = (text: string) => {
@@ -24,7 +20,13 @@ const ShowDetail: React.FC<ImgProps> = ({ images }) => {
           {images.map((list, i) => {
             return (
               <>
-                <label htmlFor={`sllide-dot-${i + 1}`}></label>
+                <label
+                  style={{
+                    backgroundImage: `url(${require(`../../asset/Products/${list}`)})`,
+                    bottom: `${50 - 10 * i}%`,
+                  }}
+                  htmlFor={`sllide-dot-${i + 1}`}
+                ></label>
               </>
             );
           })}
@@ -32,13 +34,11 @@ const ShowDetail: React.FC<ImgProps> = ({ images }) => {
             return (
               <>
                 <input
-                  style={{
-                    backgroundImage: `url(${require(`../../asset/Products/${list}`)})`,
-                  }}
                   id={`slide-dot-${i + 1}`}
                   type="radio"
                   name="slide"
                   checked={true}
+                  style={{ bottom: `${50 - 9 * i}%` }}
                 ></input>
                 <div
                   className={`slide slide-${i + 1}`}
