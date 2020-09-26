@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import SliderImage from "./../SliderImage";
 import MainImage from "./../MainImage";
-
+import { Link } from "react-router-dom";
 import Calculate from "./../Calculate";
 import Introduce from "./../Introduce";
 import "../../Css/Header.css";
@@ -16,20 +16,20 @@ const Homepage1: React.FC = () => {
       <li className="TOMATO">
         <div>
           <div>
-            <a>
+            <Link to="/Products/Fresh/Brandywine Tomatoes">
               <h2>TOMATO SEASON</h2>
-            </a>
+            </Link>
             <h3>
-              <a href="">
+              <Link to="/Products/Fresh/Brandywine Tomatoes">
                 <em>nutritious delicious</em>
-              </a>
+              </Link>
             </h3>
           </div>
           <div className="towerDesc">
-            <a href="">
+            <Link to="/Products/Fresh/Brandywine Tomatoes">
               <span>$3.05</span>
               <em>start Point</em>
-            </a>
+            </Link>
           </div>
         </div>
       </li>

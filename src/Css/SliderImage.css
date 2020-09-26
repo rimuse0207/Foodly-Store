@@ -1,9 +1,6 @@
-.Sliders {
+.Sliders > ul > a {
 }
-.Sliders > ul {
-  display: flex;
-}
-.Sliders > ul > li {
+.Sliders > ul > a > li {
   width: 25%;
   height: 35vh;
   background-repeat: no-repeat;
@@ -11,8 +8,12 @@
   background-size: cover;
   position: relative;
   margin-bottom: 100px;
+  display: inline-block;
 }
-.Sliders > ul > li > span {
+.Sliders > ul > a > li:hover {
+  opacity: 0.6;
+}
+.Sliders > ul > a > li > span {
   min-width: 60px;
   min-height: 60px;
   display: block;
@@ -28,7 +29,7 @@
   z-index: 2;
   line-height: 60px;
 }
-.Sliders > ul > li > div {
+.Sliders > ul > a > li > div {
   position: absolute;
   bottom: -40px;
   left: 0;
@@ -37,7 +38,7 @@
   line-height: 1.4;
   font-weight: bolder;
 }
-.Sliders > ul > li > div + div > span {
+.Sliders > ul > a > li > div + div > span {
   position: absolute;
   bottom: -40px;
   left: 0;
@@ -49,14 +50,14 @@
 }
 
 @media (max-width: 700px) {
-  .Sliders > ul > li {
+  .Sliders > ul > a > li {
     min-width: 50%;
     display: inline-block;
   }
   .Sliders > ul {
     display: contents;
   }
-  .Sliders > ul > li > div + div > span {
+  .Sliders > ul > a > li > div + div > span {
     font-size: 0.5em;
   }
 }

@@ -2,19 +2,19 @@
   overflow: hidden;
 }
 
-.wrap > .left:hover {
+.wrap > a > .left:hover {
   background-color: #f06060;
   opacity: 0.7;
   cursor: pointer;
   transform: scale(1);
 }
 
-.wrap > .right:hover {
+.wrap > a > .right:hover {
   background-color: #f06060;
   opacity: 0.7;
   cursor: pointer;
 }
-.wrap > .left {
+.wrap > a > .left {
   background-image: url("../asset/dada.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -25,20 +25,20 @@
   position: relative;
   padding-top: 50px;
 }
-.wrap > .left > h3 {
+.wrap > a > .left > h3 {
   font-family: "Raleway", Tahoma, Geneva, sans-serif;
   font-weight: 300;
   text-transform: uppercase;
   font-size: 32px;
 }
-.wrap > .left > h4 {
+.wrap > a > .left > h4 {
   margin: 0;
   line-height: 1.4;
   font-family: "Bitter", serif;
   font-weight: normal;
   font-size: 26px;
 }
-.wrap > .left > div {
+.wrap > a > .left > div {
   position: absolute;
   overflow: hidden;
   top: 50%;
@@ -49,7 +49,7 @@
   /* display: block; */
   width: 100%;
 }
-.wrap > .left > div::before {
+.wrap > a > .left > div::before {
   content: "";
   display: block;
   margin-left: 300px;
@@ -58,7 +58,7 @@
   position: relative;
   top: 47px;
 }
-.wrap > .left > div > span:first-child {
+.wrap > a > .left > div > span:first-child {
   padding: 0 5px;
   width: 100px;
   height: 100px;
@@ -70,18 +70,18 @@
   line-height: 100px;
 }
 
-.wrap > .left > div > span:first-child > strong {
+.wrap > a > .left > div > span:first-child > strong {
   display: inline-block;
   vertical-align: middle;
   line-height: 18px;
 
   font-size: 1.3em;
 }
-.wrap > .left > div > span + span {
+.wrap > a > .left > div > span + span {
   margin-top: 23px;
   float: right;
 }
-.wrap > .right {
+.wrap > a > .right {
   float: right;
   width: 50%;
   height: 80vh;
@@ -93,20 +93,20 @@
   padding-top: 50px;
 }
 
-.wrap > .right > h3 {
+.wrap > a > .right > h3 {
   font-family: "Raleway", Tahoma, Geneva, sans-serif;
   font-weight: 300;
   text-transform: uppercase;
   font-size: 32px;
 }
-.wrap > .right > h4 {
+.wrap > a > .right > h4 {
   margin: 0;
   line-height: 1.4;
   font-family: "Bitter", serif;
   font-weight: normal;
   font-size: 26px;
 }
-.wrap > .right > div {
+.wrap > a > .right > div {
   position: absolute;
   overflow: hidden;
   top: 50%;
@@ -117,7 +117,7 @@
   /* display: block; */
   width: 100%;
 }
-.wrap > .right > div::before {
+.wrap > a > .right > div::before {
   content: "";
   display: block;
   margin-left: 300px;
@@ -126,7 +126,7 @@
   position: relative;
   top: 47px;
 }
-.wrap > .right > div > span:first-child {
+.wrap > a > .right > div > span:first-child {
   padding: 0 5px;
   width: 100px;
   height: 100px;
@@ -138,54 +138,54 @@
   line-height: 100px;
 }
 
-.wrap > .right > div > span:first-child > strong {
+.wrap > a > .right > div > span:first-child > strong {
   display: inline-block;
   vertical-align: middle;
   line-height: 18px;
 
   font-size: 1.3em;
 }
-.wrap > .right > div > span + span {
+.wrap > a > .right > div > span + span {
   margin-top: 23px;
   float: right;
 }
 @media (max-width: 700px) {
-  .wrap > .left {
+  .wrap > a > .left {
     float: none;
     width: 100%;
     height: 50vh;
   }
-  .wrap > .right {
+  .wrap > a > .right {
     float: none;
     width: 100%;
     height: 50vh;
   }
-  .wrap > .left > h3 {
+  .wrap > a > .left > h3 {
     font-size: 16px;
   }
-  .wrap > .left > h4 {
+  .wrap > a > .left > h4 {
     font-size: 13px;
   }
-  .wrap > .left > div > span:first-child,
-  .wrap > .right > div > span:first-child {
+  .wrap > a > .left > div > span:first-child,
+  .wrap > a > .right > div > span:first-child {
     width: 50px;
     height: 50px;
   }
-  .wrap > .left > div > span:first-child > strong,
-  .wrap > .right > div > span:first-child > strong {
+  .wrap > a > .left > div > span:first-child > strong,
+  .wrap > a > .right > div > span:first-child > strong {
     font-size: 0.6em;
     position: relative;
     top: -20px;
   }
-  .wrap > .left > div > span + span > strong,
-  .wrap > .right > div > span + span > strong {
+  .wrap > a > .left > div > span + span > strong,
+  .wrap > a > .right > div > span + span > strong {
     font-size: 0.8em;
   }
-  .wrap > .left > div::before,
-  .wrap > .right > div::before {
+  .wrap > a > .left > div::before,
+  .wrap > a > .right > div::before {
     margin-left: 100px;
   }
-  .wrap > .right > h3 {
+  .wrap > a > .right > h3 {
     font-size: 16px;
   }
 }
