@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4734fbbe105a0759eb7b155fa9d401f6",
+    "revision": "18e175afe0f24d4429ddc194be381694",
     "url": "/Foodly-Store/index.html"
   },
   {
-    "revision": "4aed72bf5cb758f56883",
-    "url": "/Foodly-Store/static/css/main.1ffa2fec.chunk.css"
+    "revision": "e75196dbf8b328adc23f",
+    "url": "/Foodly-Store/static/css/main.fcde6018.chunk.css"
   },
   {
-    "revision": "81127a8fb98e17c590fb",
-    "url": "/Foodly-Store/static/js/2.35bc8f02.chunk.js"
+    "revision": "1c9ff660ef059312dac8",
+    "url": "/Foodly-Store/static/js/2.5c0bb946.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Foodly-Store/static/js/2.35bc8f02.chunk.js.LICENSE.txt"
+    "url": "/Foodly-Store/static/js/2.5c0bb946.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4aed72bf5cb758f56883",
-    "url": "/Foodly-Store/static/js/main.86ac6a46.chunk.js"
+    "revision": "e75196dbf8b328adc23f",
+    "url": "/Foodly-Store/static/js/main.fc2f9136.chunk.js"
   },
   {
     "revision": "4fd5c4d3e4dfa9f1a87c",
