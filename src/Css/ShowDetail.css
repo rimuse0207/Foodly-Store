@@ -33,6 +33,7 @@
   right: -2px;
   bottom: 48%;
   z-index: 999;
+  border: 4px solid #fff;
 }
 
 .slide {

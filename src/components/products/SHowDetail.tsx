@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../../Css/ShowDetail.css";
 
 type ImgProps = {
@@ -6,13 +6,6 @@ type ImgProps = {
 };
 
 const ShowDetail: React.FC<ImgProps> = ({ images }) => {
-  const [ClickOn, setClickOn] = useState<string>("image1");
-
-  const Tomato = () => {};
-
-  const handleClick = (text: string) => {
-    setClickOn(text);
-  };
   return (
     <div className="boXX">
       <div className="Slider_container">

@@ -56,6 +56,7 @@
 @media (max-width: 700px) {
   #Menu > ul {
     display: grid;
+    z-index: 99999;
   }
   #Menu > ul > li {
     color: white;
@@ -115,7 +116,7 @@
     bottom: 0;
   }
   #menuToggle input[id="hamburger"]:checked + label {
-    z-index: 999;
+    z-index: 9999999;
   }
   #menuToggle input[id="hamburger"]:checked + label span {
     background: #fff;
@@ -143,6 +144,7 @@
   }
   #menuToggle input[id="hamburger"]:checked + label + div {
     left: 0;
+    z-index: 999;
   }
   #menuToggle label {
     position: fixed !important;
