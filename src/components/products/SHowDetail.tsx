@@ -3,9 +3,13 @@ import "../../Css/ShowDetail.css";
 
 type ImgProps = {
   images: any;
+  name: string;
+  price: number;
+  desc: string;
 };
 
-const ShowDetail: React.FC<ImgProps> = ({ images }) => {
+const ShowDetail: React.FC<ImgProps> = ({ images, name, price, desc }) => {
+  console.log(name);
   return (
     <div className="boXX">
       <div className="Slider_container">
@@ -44,7 +48,23 @@ const ShowDetail: React.FC<ImgProps> = ({ images }) => {
           })}
         </div>
       </div>
-      <div>asdjsdafhlkasdfhlkasdfhaksjfhkjasdhflk</div>
+      <div className="Intro_price">
+        <h2>{name}</h2>
+        <span> Harvest 2015 | In stock | Bunch</span>
+        <div className="Intro_float">
+          <div className="Left">
+            ${price} <span>perbunch</span>
+          </div>
+          <div className="Right">
+            ${price}
+            <button>ADD TO BAG</button>
+          </div>
+        </div>
+      </div>
+      <div className="Intro_Desc">
+        <h2>Description</h2>
+        <p>{desc}</p>
+      </div>
     </div>
   );
 };

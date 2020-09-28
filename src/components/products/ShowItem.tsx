@@ -27,10 +27,15 @@ const ShowItem: React.FC = (
       return list;
     }
   });
-
+  console.log(daaa);
   return (
     <div>
-      <ShowDetail images={daaa[0].img}></ShowDetail>
+      <ShowDetail
+        images={daaa[0].img}
+        name={daaa[0].name}
+        price={daaa[0].price}
+        desc={daaa[0].Description}
+      ></ShowDetail>
     </div>
   );
 };
