@@ -13,75 +13,81 @@ const Homepage1: React.FC = () => {
   const apple = require("../../asset/img_thumb_homepage_slide_3_7d484d7e-7ff3-4e10-b498-a27b89910779_150x.jpg");
   const Tomato = () => {
     return (
-      <li className="TOMATO">
-        <div>
+      <Link to="/Products/Fresh/Campari Tomatoes">
+        <li className="TOMATO">
           <div>
-            <Link to="/Products/Fresh/Brandywine Tomatoes">
-              <h2>TOMATO SEASON</h2>
-            </Link>
-            <h3>
+            <div>
               <Link to="/Products/Fresh/Brandywine Tomatoes">
-                <em>nutritious delicious</em>
+                <h2>TOMATO SEASON</h2>
               </Link>
-            </h3>
+              <h3>
+                <Link to="/Products/Fresh/Brandywine Tomatoes">
+                  <em>nutritious delicious</em>
+                </Link>
+              </h3>
+            </div>
+            <div className="towerDesc">
+              <Link to="/Products/Fresh/Brandywine Tomatoes">
+                <span>$3.05</span>
+                <em>start Point</em>
+              </Link>
+            </div>
           </div>
-          <div className="towerDesc">
-            <Link to="/Products/Fresh/Brandywine Tomatoes">
-              <span>$3.05</span>
-              <em>start Point</em>
-            </Link>
-          </div>
-        </div>
-      </li>
+        </li>
+      </Link>
     );
   };
 
   const Paper = () => {
     return (
-      <li className="PELLA">
-        <div>
+      <Link to="/Products/Fresh/Capia Pepper">
+        <li className="PELLA">
           <div>
-            <a>
-              <h2>PAELLA OR PASTA?</h2>
-            </a>
-            <h3>
-              <a href="">
-                <em>you'll need this sweet pepper for both</em>
+            <div>
+              <a>
+                <h2>PAELLA OR PASTA?</h2>
               </a>
-            </h3>
+              <h3>
+                <a href="">
+                  <em>you'll need this sweet pepper for both</em>
+                </a>
+              </h3>
+            </div>
+            <div className="towerDesc">
+              <a href="">
+                <span>$6.95</span>
+                <em>start Point</em>
+              </a>
+            </div>
           </div>
-          <div className="towerDesc">
-            <a href="">
-              <span>$6.95</span>
-              <em>start Point</em>
-            </a>
-          </div>
-        </div>
-      </li>
+        </li>
+      </Link>
     );
   };
   const Apple = () => {
     return (
-      <li className="APPLE">
-        <div>
+      <Link to="/Products/Fresh/Empire Apples">
+        <li className="APPLE">
           <div>
-            <a>
-              <h2>APPLE PIE?</h2>
-            </a>
-            <h3>
-              <a href="">
-                <em>of Gala Cultivar</em>
+            <div>
+              <a>
+                <h2>APPLE PIE?</h2>
               </a>
-            </h3>
+              <h3>
+                <a href="">
+                  <em>of Gala Cultivar</em>
+                </a>
+              </h3>
+            </div>
+            <div className="towerDesc">
+              <a href="">
+                <span>$3.55</span>
+                <em>start Point</em>
+              </a>
+            </div>
           </div>
-          <div className="towerDesc">
-            <a href="">
-              <span>$3.55</span>
-              <em>start Point</em>
-            </a>
-          </div>
-        </div>
-      </li>
+        </li>
+      </Link>
     );
   };
   const handleClick = (text: string) => {

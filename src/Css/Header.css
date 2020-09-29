@@ -2,16 +2,16 @@
   width: 100%;
   position: relative;
 }
-.Header > ul > .TOMATO {
+.Header > ul > a > .TOMATO {
   background-image: url("../asset/img_homepage_slide_1_99ab6459-79aa-49be-89c7-fb4cd2ac027f_2000x.jpg");
 }
-.Header > ul > .PELLA {
+.Header > ul > a > .PELLA {
   background-image: url("../asset/img_homepage_slide_2_1e0ca3da-09bc-46b3-a58e-952f99df5a5d_2000x.jpg");
 }
-.Header > ul > .APPLE {
+.Header > ul > a > .APPLE {
   background-image: url("../asset/img_homepage_slide_3_2d5607e9-6072-431a-9965-9e0421c370c6_2000x.jpg");
 }
-.Header > ul > li {
+.Header > ul > a > li {
   background-repeat: no-repeat;
   background-position: 50% 70%;
   background-size: cover;
@@ -27,12 +27,12 @@
 .slides {
   zoom: 1;
 }
-.slides > li > div {
+.slides > a > li > div {
   position: absolute;
   left: 40%;
   top: 10%;
 }
-.slides > li > div > div > a > h2 {
+.slides > a > li > div > div > a > h2 {
   font-family: "Raleway", Tahoma, Geneva, sans-serif;
   font-size: 32px;
   font-weight: 300;
@@ -204,7 +204,7 @@
 }
 
 @media (max-width: 700px) {
-  .slides > li > div > div > a > h2 {
+  .slides > a > li > div > div > a > h2 {
     font-size: 16px;
   }
   .slides em {
@@ -222,7 +222,7 @@
     font-size: 16px;
     padding-top: 6px;
   }
-  .Header > ul > li {
+  .Header > ul > a > li {
     height: 50vh;
   }
   .navcontrol > li {

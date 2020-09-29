@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../Css/Header.css";
 
 type ImgProps = {
@@ -13,26 +14,28 @@ const Header: React.FC<ImgProps> = ({ images }) => {
   const apple = require("../asset/img_thumb_homepage_slide_3_7d484d7e-7ff3-4e10-b498-a27b89910779_150x.jpg");
   const Tomato = () => {
     return (
-      <li className="TOMATO">
-        <div>
+      <Link to="/Products/Fresh/Campari Tomatoes">
+        <li className="TOMATO">
           <div>
-            <a>
-              <h2>TOMATO SEASON</h2>
-            </a>
-            <h3>
-              <a href="">
-                <em>nutritious delicious</em>
+            <div>
+              <a>
+                <h2>TOMATO SEASON</h2>
               </a>
-            </h3>
+              <h3>
+                <a href="">
+                  <em>nutritious delicious</em>
+                </a>
+              </h3>
+            </div>
+            <div className="towerDesc">
+              <a href="">
+                <span>$3.05</span>
+                <em>start Point</em>
+              </a>
+            </div>
           </div>
-          <div className="towerDesc">
-            <a href="">
-              <span>$3.05</span>
-              <em>start Point</em>
-            </a>
-          </div>
-        </div>
-      </li>
+        </li>
+      </Link>
     );
   };
 
