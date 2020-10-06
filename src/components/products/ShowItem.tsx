@@ -1,17 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { RouteComponentProps } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { RootState } from "../../modules";
 
 import ShowDetail from "./SHowDetail";
-type DataList = {
-  id: number;
-  Products: any;
-  img: any;
-  name: string;
-  price: number;
-  Description: number;
-};
+
 const ShowItem: React.FC = (
   props: RouteComponentProps<{ key: string; name: number }>
 ) => {
